@@ -1,0 +1,36 @@
+df                  show all filesystems/partitions/mounts
+dmesg               display messages from most recent boot
+dmidecode           display info stored in DMI tables (CPU/memory/BIOS/etc)
+du                  show disk usage
+fdisk               modify/view hard disk partitions (MBR)
+free                display used and free memory
+gdisk               modify/view hard disk partitions (GPT)
+hdparm              show info about SATA devices
+htop                graphical display of current system resource usage
+hwinfo              brief or detailed info on various hardware components
+iostat              display I/O and CPU reports for devices, partitions, NFS
+ls                  list directory contents and attributes
+lsattr              list extended attributes of files
+lsblk               list block devices and their attributes
+lsb_release         display Linux distribution-specific info
+lscgroup            list all cgroups - kernel feature to set resource limits
+lscpu               display information about CPU architecture and settings
+lshal               display devices in HAL database
+lshw                display detailed info about host's hardware configuration
+lsinitramfs         display contents of initramfs images
+lslk                list all locks associated with local files
+lsmod               list device drivers currently loaded into kernel
+lsof                list all open files, ports, and processes
+lspci               list PCI buses and attached devices
+lspcmcia            display info about PCMCIA sockets and devices
+lsscsi              list SCSI devices and their attributes
+lsusb               list USB buses and attached devices
+mount               mount/unmount devices or view mountpoints and options
+/proc               entire filesystem contains detailed hardware info
+/proc/cmdline       command-line options passed to kernel at boot time
+/proc/crypto        contains ciphers kernel supports
+/proc/devices       contains block/character device info
+/proc/mdstat        contains RAID device config
+top                 graphical display of current system resource usage
+uname               get info about general system
+vmstat              display information about virtual memory

@@ -1,0 +1,26 @@
+arp             display ARP table
+curl            test-based web browser; can test web APIs
+dig             verify DNS records/mappings
+ethtool         show network driver/hardware settings
+finger          display info about a system user
+host            verify DNS records (simplified)
+hostname        get/set local machine's hostname
+ifconfig        get info about each network interface
+iftop           real-time traffic monitoring
+ip              show/manipulate IP routing table and devices
+iptables        configure firewall for Linux kernel
+iwconfig        get info about each wireless network interface
+mtr             real-time route tracing
+nc/netcat       create TCP socket to listen over; can be used to test bandwidth
+netstat         display network connections; deprecated
+nmap            detect hosts/ports open on network
+nslookup        query DNS for domain name <-> IP address mapping
+ping            send ICMP ECHO_REQUEST packets to host
+route           show/manipulate the IP routing table
+ss              output all socket connections; replaces netstat
+tcpdump         capture traffic passing through interface
+telnet          test whether host is listening on port
+traceroute      get name of device at each hop and measure latency
+tshark          like tcpdump, captures traffic through interface
+wget            tool for downloading files or whole sites from the Internet
+whois           look up domain name in WHOIS database
