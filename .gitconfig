@@ -1,3 +1,5 @@
 [user]
 	name = Jason Goldfine-Middleton
 	email = jrgoldfinemiddleton@gmail.com
+[push]
+	default = simple
