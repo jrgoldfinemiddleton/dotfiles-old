@@ -1,0 +1,21 @@
+tmux Cheat Sheet
+
+C-b     prefix
+?       display keybindings
+arrow   switch to pane in direction
+"       split window vertically
+%       split window horizontally
+z       zoom pane out/in
+:       command prompt
+c       new window
+d       detach client
+l       last window
+n       next window
+p       previous window
+r       refresh client
+M-arrow resize pane in direction
+C-o     rotate panes in window
+,       rename window
+!       break pane to new window
+x       kill pane
+&       kill window
