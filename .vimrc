@@ -165,6 +165,10 @@ set backupdir=~/.vim/backup
 " Show line numbers
 set nu
 
+" Show trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 " Fire up Pathogen - Vim plugin manager
 " https://github.com/tpope/vim-pathogen
 call pathogen#infect()
