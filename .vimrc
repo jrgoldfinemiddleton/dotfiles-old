@@ -159,8 +159,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 "------------------------------------------------------------
 " Jason's extra options {{{1
 "
-" Create backup files in special directory to reduce clutter from ~ files
-set backupdir=~/.vim/backup
+" Disable backup file creation
+set nobackup
 
 " Show line numbers
 set nu
