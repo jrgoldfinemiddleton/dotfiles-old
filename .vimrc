@@ -169,6 +169,9 @@ set nu
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" Filetype indentation overrides
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+
 " Fire up Pathogen - Vim plugin manager
 " https://github.com/tpope/vim-pathogen
 call pathogen#infect()
