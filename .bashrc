@@ -53,6 +53,10 @@ trap merge_session_history EXIT
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# Ansible
+export ANSIBLE_ROOT=~/Developer/ansible
+export ANSIBLE_ROLES=~/Developer/roles
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi

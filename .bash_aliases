@@ -8,7 +8,11 @@ alias avc="ansible-vault create"
 alias ave="ansible-vault edit"
 alias ap="cd $ANSIBLE_ROOT; ansible-playbook"
 alias cda="cd $ANSIBLE_ROOT"
+alias cdr="cd $ANSIBLE_ROLES"
 
+### DebOps aliases ###
+
+alias actdeb="source ~/.venv/debops/bin/activate"
 
 ### Docker aliases ###
 
